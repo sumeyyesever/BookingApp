@@ -1,0 +1,169 @@
+.header {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .container.listMode{
+        padding: 10px 100px 50px 100px;
+    }
+    .container {
+        padding: 10px 100px;
+
+        .choices {
+            display: flex;
+            gap: 50px;
+
+            .item {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    font-size: 13px;
+                }
+
+            }
+
+        }
+
+        .texts {
+            margin: 80px 0;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h3 {
+                margin-top: 5px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+
+        .search-container {
+
+            height: 60px;
+            display: flex;
+            background-color: #febb02;
+            justify-content: space-between;
+            border-radius: 5px;
+            position: absolute;
+            bottom: -30px;
+
+            .calender {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                color: black;
+                margin: 3px;
+                border-radius: 5px;
+                padding: 10px;
+
+                span {
+                    margin-left: 5px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+
+                .date {
+                    position: absolute;
+                    top: 64px;
+                    right: 300px;
+                }
+            }
+
+
+            .search-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                color: black;
+                margin: 3px;
+                border-radius: 5px;
+                padding: 10px;
+
+                input {
+                    width: 350px;
+                    height: 40px;
+                    border: none;
+                    margin-left: 3px;
+                    font-size: 15px;
+                    outline-color: #003580;
+                    padding-left: 3px;
+
+                }
+
+                span {
+                    margin-left: 5px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+
+                .down {
+                    margin-left: 30px;
+                    cursor: pointer;
+                }
+
+
+                .btn {
+                    border: none;
+                    padding: 0 20px;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 16px;
+                    cursor: pointer;
+                    background-color: #004cb8;
+                }
+
+
+                .options {
+                    
+                    position: absolute;
+                    padding: 20px;
+                    bottom: -200px;
+                    background-color: white;
+                    -webkit-box-shadow: -1px 0px 35px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 35px -11px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 35px -11px rgba(0,0,0,0.75);
+                
+
+                    .option-item{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 90px;
+                        
+                        :nth-child(2){
+                            margin: 10px 0;
+                        }
+
+                        button{
+                            padding: 5px 20px;
+                            border: none;
+                            font-size: 15px;
+                            background-color: rgb(152, 200, 227);
+                            cursor: pointer;
+
+                        }
+                        .counter{
+                            margin: 0 15px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

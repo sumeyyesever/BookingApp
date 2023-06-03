@@ -1,0 +1,21 @@
+.footer{
+    padding: 20px 80px 20px 80px;
+    color: #006ce4;
+
+    .footer-wrapper{
+        display: flex;
+
+        .footer-links{
+            flex: 1;
+
+            li{
+                margin-bottom: 8px;
+                font-size: 12px;
+                list-style: none;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+}

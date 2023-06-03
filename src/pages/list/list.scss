@@ -1,0 +1,56 @@
+.list-container{
+    .list-wrapper{
+        display: flex;
+        padding: 40px 100px;
+        .left{
+            flex: 1;
+            border: 1px solid rgb(184, 178, 178);
+            border-radius: 5px;
+            height: fit-content;
+
+            h3{
+              font-weight: 500;
+              padding: 5px 10px;
+              border-bottom: 1px solid rgb(184, 178, 178);  
+            }
+
+            .filter-item{
+                padding: 5px 10px;
+                border-bottom: 1px solid rgb(184, 178, 178); 
+
+                h4{
+                    margin-bottom: 5px;
+                    font-weight: 600;
+                }
+
+                .input-item{
+                    margin-bottom: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .input-container{
+                        display: flex;
+                        align-items: center;
+
+                        label{
+                            margin-left: 5px;
+                            font-size: 13px;
+                        }
+                    }
+
+                    span{
+                        font-size: 10px;
+                    }
+
+                    
+
+                    
+                }
+            }
+        }
+        .right{
+            flex: 3;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.hotel-container{
+    margin: 10px 100px;
+
+    .hotel-wrapper{
+        display: flex;
+        flex-direction: column;
+
+        .hotel-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .top-information{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: rgb(58, 58, 223);
+                    
+                }
+                span{
+                    display: flex;
+                    align-items: center;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+            button{
+                padding: 10px;
+                background-color: rgb(21, 21, 126);
+                color: white;
+                font-size: 15px;
+                border: none;
+                margin-right: 10px;
+            }
+        }
+        .hotel-center{
+            display: flex;
+            flex-wrap: wrap;
+
+            img{
+                flex: 1;
+                width: 300px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                object-fit: cover;
+            }
+        }
+        .hotel-bottom{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+               width: 50%;
+               font-size: 13px;
+            }
+            .price-container{
+                display: flex;
+                flex-direction: column;
+                
+                padding: 30px 50px;
+                background-color: rgb(202, 221, 243);
+                
+                h6{
+                    margin: 10px 0;
+                    font-weight: 400;
+                    font-size: 13px;
+                }
+                span{
+                    margin-bottom: 10px;
+                    font-size: 25px;
+                }
+                button{
+                    background-color: rgb(21, 21, 126);
+                color: white;
+                font-size: 15px;
+                border: none;
+                padding: 10px 0;
+                }
+            }
+        }
+    }
+}

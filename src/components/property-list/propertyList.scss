@@ -1,0 +1,27 @@
+.property-container{
+    padding: 80px 80px 0 80px;
+    h1{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .property-wrapper{
+        display: flex;
+        gap: 10px;
+
+        .property{
+            flex: 1;
+
+            img{
+              border-radius: 5%;  
+            }
+
+            h2{
+                font-size: 15px;
+            }
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+}
