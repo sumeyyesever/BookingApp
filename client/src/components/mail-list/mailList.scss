@@ -1,0 +1,39 @@
+.mail-container{
+    background-color: #00224f;
+    color: white;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    h1{
+        font-weight: 300;
+    }
+    span{
+        font-weight: 300;
+        color: darkgray;
+    }
+    .input-container{
+        input{
+            width: 350px;
+            padding: 10px 3px;
+            border: none;
+            outline: none;
+            margin-right: 3px;
+            font-size: 15px;
+            
+        }
+        button{
+            background-color: #006ce4;
+            color: white;
+            padding: 10px;
+            border: none;
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+}

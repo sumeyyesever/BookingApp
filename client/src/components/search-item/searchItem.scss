@@ -1,0 +1,81 @@
+.searchItem-container{
+    border: 1px solid rgb(184, 178, 178);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+    .searchItem-wrapper{
+        padding: 15px 20px;
+        display: flex;
+        
+        justify-content: space-between;
+
+        .searchItem-left{
+        display: flex;
+        margin-right: 60px;
+
+
+        img{
+            width: 30%;
+            object-fit: cover;
+            border-radius: 5%;
+            margin-right: 10px;
+        }
+         .item-info{
+            h1{
+                font-size: 20px;
+                color: rgb(37, 181, 207);
+            }
+            span{
+                font-size: 12px;
+                font-weight: 300;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+         }
+
+        }
+        .searchItem-right{
+            text-align: right;
+            .reviews{
+                display: flex;
+                align-items: center;
+
+
+            
+                p{
+                    font-size: 10px;
+                }
+                .rating{
+                    font-size: large;
+                    background-color: rgb(28, 28, 182);
+                    color: white;
+                    margin-left:5px ;
+                    padding: 3px;
+                }
+
+            
+            }
+            h3{
+                font-size: 12px;
+                margin-top: 10px;
+                color: rgb(37, 181, 207);
+               
+            }
+
+            button{
+                padding: 10px;
+                color: white;
+                background-color: rgb(37, 181, 207);
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                border-radius: 5%;
+                margin-top: 5px;
+    
+            }
+        }
+    }
+}
